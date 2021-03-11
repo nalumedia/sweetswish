@@ -7,8 +7,7 @@ export default function About({ data }) {
     <Layout>
       <h1>About {data.site.siteMetadata.title}</h1>
       <p>
-        We're the only site running on your computer dedicated to showing the
-        best photos and videos of pandas eating lots of food. Thanks for visiting: {data.site.siteMetadata.title}.
+      Welcome to {data.site.siteMetadata.title}. We give information and data about basketball. Our team loves basketball and we hope that you enjoy our website. 
       </p>
     </Layout>
   )
