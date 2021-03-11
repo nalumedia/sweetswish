@@ -29,18 +29,7 @@ module.exports = {
       },
       
     },
-    {
-      resolve: "gatsby-source-airtable",
-        options: {
-          apiKey: "key9WyF4yj82n63Ze",
-          tables: [
-            {
-              baseId: "appOxBrvGIkgD6bFG",
-              tableName: "testing",
-            },
-                  ]
-              }
-    },
+   
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
