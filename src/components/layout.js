@@ -30,6 +30,7 @@ export default function Layout({ children }) {
         max-width: 900px;
         padding: ${rhythm(2)};
         padding-top: ${rhythm(1.5)};
+        background-color: white;
       `}
     >
       <Link to={`/`}>
@@ -40,7 +41,7 @@ export default function Layout({ children }) {
             font-style: normal;
           `}
         >
-          {data.site.siteMetadata.title}
+          <span id="logo">{data.site.siteMetadata.title}</span>
         </h3>
       </Link>
       <Link

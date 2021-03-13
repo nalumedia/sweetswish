@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Ranchers&display=swap');
+
 html {
     background-color: #C27AE1;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a {
+    color: black;
+  }
+
+  #logo {
+    font-size: 4em;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 10px;
+    color: #FDB927;
+    
   }
