@@ -15,7 +15,7 @@ export default function Home({ data }) {
         >
         <h1>Your source for all things sweet hoops</h1>
         </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        <h4>{data.allMarkdownRemark.totalCount} Posts about Sweet Swishes and Nasty Dunks</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -30,7 +30,7 @@ export default function Home({ data }) {
                   margin-bottom: ${rhythm(1 / 4)};
                 `}
               >
-                {node.frontmatter.title}{" "}
+                &#127936; {node.frontmatter.title}{" "}
                 <span
                   css={css`
                     color: #555;

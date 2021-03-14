@@ -8,9 +8,9 @@ export default function Contact({ data }) {
       <h1>Contact {data.site.siteMetadata.title}</h1>
       <p>
       
-        We're the only site running on your computer dedicated to showing the
-        best photos and videos of pandas eating lots of food. Thanks for visiting: {data.site.siteMetadata.title}.
-        &nbsp; <a href="{data.site.siteMetadata.contact}">{data.site.siteMetadata.contact}</a>
+        Thanks for visiting Sweet Swish. If you have questions or would like to be featured please contact us at:
+        {data.site.siteMetadata.title}.
+        &nbsp; <a href="mailto:info@nalumedia.com">{data.site.siteMetadata.contact}</a>
       </p>
     </Layout>
   )

@@ -41,7 +41,7 @@ export default function Layout({ children }) {
             font-style: normal;
           `}
         >
-          <span id="logo">{data.site.siteMetadata.title}</span>
+          <span id="logo">&#127936; {data.site.siteMetadata.title}</span>
         </h3>
       </Link>
       <Link
@@ -51,7 +51,7 @@ export default function Layout({ children }) {
       
         `}
       >
-        Contact
+        &#128235; Contact
       </Link>
       <Link
         to={`/about/`}
@@ -60,7 +60,7 @@ export default function Layout({ children }) {
           padding-right: 10px;
         `}
       >
-        About
+        &#128075; About
       </Link>
 
    
