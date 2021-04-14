@@ -13,7 +13,7 @@ export default function Home({ data }) {
             display: inline-block;
           `}
         >
-        <h1>Your source for all things sweet hoops</h1>
+        <h1>The source for all things sweet hoops</h1>
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts about Sweet Swishes and Nasty Dunks</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
